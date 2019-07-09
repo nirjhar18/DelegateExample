@@ -26,8 +26,8 @@ namespace Delegates
         {
         }
 
-            //Pass in delegate to this function using custom delegates
-            public void Process(string path, PhotoFilterHandler filterHandler)
+        //Pass in delegate to this function using custom delegates
+        public void Process(string path, PhotoFilterHandler filterHandler)
         {
             Photo photo = new Photo();
             photo = Photo.Load(path);
