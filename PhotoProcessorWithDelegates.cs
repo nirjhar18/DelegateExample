@@ -8,10 +8,14 @@ namespace Delegates
 {
     //Create a delegate that takes photo as parameter and returns void.
     //You can use this delegate to call different methods
+    //A delegate is like a pointer to a function. It is a reference
+    //type data type and it holds the reference of a method. All the delegates are implicitly derived from System.Delegate class.
 
     class PhotoProcessorWithDelegates
     {
         //This is a custom delegate with void return type and photo type parameter
+        //Delegate Syntax:
+        //<access modifier> delegate <return type> <delegate_name>(<parameters>)
         public delegate void PhotoFilterHandler(Photo photo);
 
         //There are inbuilt .Net Delegates that you can use instead of
