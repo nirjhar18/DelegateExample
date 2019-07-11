@@ -8,7 +8,9 @@ namespace Delegates
 {
     class Photo
     {
-        public static Photo Load(string Path) { Photo ph = new Photo();
+        public static Photo Load(string Path) 
+        { 
+            Photo ph = new Photo();
             return ph;
         }
     }
